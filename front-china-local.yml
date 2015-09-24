@@ -1,3 +1,10 @@
 me: 
-	name: front-china
-	profile: local
+ name: front-china
+ profile: local
+
+server:
+ port: 8820
+
+endpoints:
+ restart:
+  enabled: true
