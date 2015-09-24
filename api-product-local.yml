@@ -1,3 +1,10 @@
 me: 
  name: api-product
  profile: local
+
+server:
+ port: 8830
+
+endpoints:
+ restart:
+  enabled: true
