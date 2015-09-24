@@ -1,5 +1,5 @@
-me: 
- name: api-product
+info: 
+ component: api-product
  profile: local
 
 server:
@@ -8,3 +8,10 @@ server:
 endpoints:
  restart:
   enabled: true
+
+eureka:
+ client:
+  serviceUrl:
+   defaultZone: http://localhost:8761/eureka/
+  healthcheck:
+   enabled: true    

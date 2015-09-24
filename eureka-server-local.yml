@@ -1,6 +1,6 @@
-me: 
- name: eureka-server
- profile: local
+info:
+ component: eureka-server
+ profile: local 
 
 server:
  port: 8761

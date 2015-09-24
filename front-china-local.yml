@@ -1,5 +1,5 @@
-me: 
- name: front-china
+info:
+ component: front-china
  profile: local
 
 server:
@@ -14,4 +14,4 @@ eureka:
   serviceUrl:
    defaultZone: http://localhost:8761/eureka/
   healthcheck:
-   enabled: true
+   enabled: true   
