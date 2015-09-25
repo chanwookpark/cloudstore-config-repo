@@ -15,3 +15,7 @@ eureka:
    defaultZone: http://localhost:8761/eureka/
   healthcheck:
    enabled: true    
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    metadataMap:
+      instanceId:${spring.application.name}
